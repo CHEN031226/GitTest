@@ -14,6 +14,7 @@
 		E91E1164243F078F0090505B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E91E1163243F078F0090505B /* Assets.xcassets */; };
 		E91E1167243F078F0090505B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E91E1165243F078F0090505B /* LaunchScreen.storyboard */; };
 		E91E116A243F078F0090505B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E91E1169243F078F0090505B /* main.m */; };
+		E9444201243F176700620637 /* BlueTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9444200243F176700620637 /* BlueTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		E91E1166243F078F0090505B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E91E1168243F078F0090505B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E91E1169243F078F0090505B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E94441FF243F176700620637 /* BlueTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlueTest.h; sourceTree = "<group>"; };
+		E9444200243F176700620637 /* BlueTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				E91E1165243F078F0090505B /* LaunchScreen.storyboard */,
 				E91E1168243F078F0090505B /* Info.plist */,
 				E91E1169243F078F0090505B /* main.m */,
+				E94441FF243F176700620637 /* BlueTest.h */,
+				E9444200243F176700620637 /* BlueTest.m */,
 			);
 			path = gitTest;
 			sourceTree = "<group>";
@@ -148,6 +153,7 @@
 			files = (
 				E91E115F243F078B0090505B /* ViewController.m in Sources */,
 				E91E1159243F078B0090505B /* AppDelegate.m in Sources */,
+				E9444201243F176700620637 /* BlueTest.m in Sources */,
 				E91E116A243F078F0090505B /* main.m in Sources */,
 				E91E115C243F078B0090505B /* SceneDelegate.m in Sources */,
 			);

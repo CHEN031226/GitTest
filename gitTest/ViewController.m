@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "BlueTest.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,9 @@
     [super viewDidLoad];
     
     NSLog(@"hello world");
+    
+    BlueTest *test = [[BlueTest alloc]initWithFrame:CGRectMake(10, 70, 100, 100)];
+    [self.view addSubview:test];
     // Do any additional setup after loading the view.
 }
 
